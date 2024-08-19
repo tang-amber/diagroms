@@ -16,6 +16,15 @@
         <mxCell id="VJHEjWM9RFk3NmzWDvzG-4" value="result" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="650" y="100" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="VJHEjWM9RFk3NmzWDvzG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VJHEjWM9RFk3NmzWDvzG-6" target="VJHEjWM9RFk3NmzWDvzG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VJHEjWM9RFk3NmzWDvzG-6" value="如果当前pre为空，count就是1&lt;div&gt;如果当前结点和上一个相等，count++&lt;/div&gt;&lt;div&gt;否则就是不想等，count为1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VJHEjWM9RFk3NmzWDvzG-7" value="如果count和maxCount相等，result.add&lt;div&gt;如果当前count大于maxCount，就清空result，更新maxCount&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="90" y="480" width="550" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
